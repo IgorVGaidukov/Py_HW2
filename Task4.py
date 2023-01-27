@@ -20,4 +20,4 @@ while i < len(lst):
         new_lst.append(lst[i+1])
     new_lst.append(lst[i])
     i += 2
-print(f'Результат {new_lst}')
+print('Результат: ', *new_lst)
